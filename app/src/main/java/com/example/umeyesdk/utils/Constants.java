@@ -4,7 +4,8 @@ public class Constants {
 	/**
 	 * 服务器
 	 */
-	public static String server = "v0.api.umeye.com";// api.qvcloud.net
+//	public static String server = "v0.api.umeye.com";// api.qvcloud.net
+	public static String server = "api.qvcloud.net";// api.qvcloud.net
 													// v0.api.umeye.com
 													// v4.api.umeye.com
 													// 121.40.110.250
@@ -17,7 +18,7 @@ public class Constants {
 	/**
 	 * 登录模式 默认用户名
 	 */
-	public static String Login_user = "yin";
+	public static String Login_user = "lin";
 
 	/**
 	 * 登录模式 默认密码

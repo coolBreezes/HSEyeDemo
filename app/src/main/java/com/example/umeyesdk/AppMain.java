@@ -1,8 +1,5 @@
 package com.example.umeyesdk;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import android.app.Application;
 import android.text.TextUtils;
 import android.util.Log;
@@ -10,7 +7,9 @@ import android.util.Log;
 import com.Player.Core.PlayerClient;
 import com.Player.web.websocket.ClientCore;
 import com.example.umeyesdk.entity.PlayNode;
-import com.stream.NewAllStreamParser;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class AppMain extends Application {
 	public static final String FILTER = "com.example.umeyesdk.RefreshData";
@@ -26,7 +25,8 @@ public class AppMain extends Application {
 		nodeList = new ArrayList<PlayNode>();
 		pc = ClientCore.getInstance();
 		//设置免登陆支持报警，如果服务器不支持，必须 设置ClientCore.isSuportLocalAlarmPush=false；
-		ClientCore.isSuportLocalAlarmPush=false; //默认是不支持
+		//Set to avoid landing support alarm, if the server does not support, must be set
+		ClientCore.isSuportLocalAlarmPush=false; //默认是不支持 //Default is not supported
 		playerclient = new PlayerClient();
 		if (!isRun) {
 			isRun = true;

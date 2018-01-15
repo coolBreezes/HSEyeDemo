@@ -4,18 +4,13 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.content.SharedPreferences.Editor;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 import android.text.TextUtils;
 import android.util.Log;
-import android.widget.TextView;
 
 import com.Player.Core.PlayerCore;
-import com.Player.Source.LogLisenter;
-import com.Player.Source.LogOut;
-import com.Player.web.response.ResponseCommon;
 import com.Player.web.response.ResponseServer;
 import com.Player.web.websocket.ClientCore;
 import com.example.umeyeNewSdk.AcSelectMode;
@@ -23,7 +18,6 @@ import com.example.umeyesdk.utils.Constants;
 import com.example.umeyesdk.utils.Show;
 import com.example.umeyesdk.utils.Utility;
 import com.getui.demo.AlarmUtils;
-import com.igexin.sdk.PushManager;
 
 public class AcLogo extends Activity {
 	public static final String WebSdkApi_Error = "WebSdkApi_Error";
@@ -50,8 +44,10 @@ public class AcLogo extends Activity {
 			finish();
 		} else {
 			// 启动推送服务
+			// Start push service
 			AlarmUtils.openPush(AcLogo.this);
 			// 启动sdk
+			// start sdk
 			authUstServerAtUserId(clientCore);
 
 		}
@@ -59,9 +55,7 @@ public class AcLogo extends Activity {
 
 	/**
 	 * 初始化服务器
-	 * 
-	 * @param pc
-	 * @param handler
+	 * Initialize the server
 	 */
 	public void authUstServerAtUserId(ClientCore clientCore) {
 
@@ -88,17 +82,17 @@ public class AcLogo extends Activity {
 				if (responseServer != null && responseServer.h != null) {
 					if (responseServer.h.e == 200) {
 						Show.toast(AcLogo.this,
-								"获取服务器:" + responseServer.b.toJsonString());
+								getString(R.string.get_server) + responseServer.b.toJsonString());
 
 					} else {
-						Log.e(WebSdkApi_Error, "获取服务器失败! code="
+						Log.e(WebSdkApi_Error, getString(R.string.get_server_fail)+" code= "
 								+ responseServer.h.e);
-						Show.toast(AcLogo.this, "获取服务器失败! code="
+						Show.toast(AcLogo.this, getString(R.string.get_server_fail)+" code= "
 								+ responseServer.h.e);
 					}
 				} else {
-					Log.e(WebSdkApi_Error, "获取服务器失败! error=" + msg.what);
-					Show.toast(AcLogo.this, "获取服务器失败! error=" + msg.what);
+					Log.e(WebSdkApi_Error, getString(R.string.get_server_fail)+" error= " + msg.what);
+					Show.toast(AcLogo.this, getString(R.string.get_server_fail)+" error= " + msg.what);
 				}
 				actionToLogin();
 				super.handleMessage(msg);
