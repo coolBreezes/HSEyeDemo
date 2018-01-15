@@ -1,0 +1,456 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* doc\
+* doc\html\
+* doc\html\annotated.html
+* doc\html\annotated_dup.js
+* doc\html\bc_s.png
+* doc\html\bdwn.png
+* doc\html\classcom_1_1_player_1_1_core_1_1_player_client-members.html
+* doc\html\classcom_1_1_player_1_1_core_1_1_player_client.html
+* doc\html\classcom_1_1_player_1_1_core_1_1_player_client.js
+* doc\html\classcom_1_1_player_1_1_core_1_1_player_core-members.html
+* doc\html\classcom_1_1_player_1_1_core_1_1_player_core.html
+* doc\html\classcom_1_1_player_1_1_core_1_1_player_core.js
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_action_state_info-members.html
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_action_state_info.html
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_action_state_info.js
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_alarm_info-members.html
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_alarm_info.html
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_alarm_info.js
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_alarm_info.png
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_banner_info-members.html
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_banner_info.html
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_banner_info.js
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_banner_info.png
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_cookbook_info-members.html
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_cookbook_info.html
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_cookbook_info.js
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_cookbook_info.png
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_courses_info-members.html
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_courses_info.html
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_courses_info.js
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_courses_info.png
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_dev_alarm_info-members.html
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_dev_alarm_info.html
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_dev_alarm_info.js
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_dev_alarm_info.png
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_dev_item_info-members.html
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_dev_item_info.html
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_dev_item_info.js
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_dev_item_info.png
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_dev_state-members.html
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_dev_state.html
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_dev_state.js
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_dev_state.png
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_notice_infomation-members.html
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_notice_infomation.html
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_notice_infomation.js
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_notice_infomation.png
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_notify_state_info-members.html
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_notify_state_info.html
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_notify_state_info.js
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_response_banner-members.html
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_response_banner.html
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_response_banner.js
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_response_banner.png
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_response_banner_body-members.html
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_response_banner_body.html
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_response_banner_body.js
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_response_common-members.html
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_response_common.html
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_response_common.js
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_response_dev_list-members.html
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_response_dev_list.html
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_response_dev_list.js
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_response_dev_list.png
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_response_dev_list_body-members.html
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_response_dev_list_body.html
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_response_dev_list_body.js
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_response_dev_state-members.html
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_response_dev_state.html
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_response_dev_state.js
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_response_dev_state.png
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_response_dev_state_body-members.html
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_response_dev_state_body.html
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_response_dev_state_body.js
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_response_dev_state_body.png
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_response_get_baby_info-members.html
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_response_get_baby_info.html
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_response_get_baby_info.js
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_response_get_baby_info.png
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_response_get_baby_info_body-members.html
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_response_get_baby_info_body.html
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_response_get_baby_info_body.js
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_response_get_baby_info_body.png
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_response_get_cookbook-members.html
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_response_get_cookbook.html
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_response_get_cookbook.js
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_response_get_cookbook.png
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_response_get_cookbook_body-members.html
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_response_get_cookbook_body.html
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_response_get_cookbook_body.js
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_response_get_cookbook_body.png
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_response_get_courses-members.html
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_response_get_courses.html
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_response_get_courses.js
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_response_get_courses.png
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_response_get_courses_body-members.html
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_response_get_courses_body.html
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_response_get_courses_body.js
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_response_get_courses_body.png
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_response_get_infomation-members.html
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_response_get_infomation.html
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_response_get_infomation.js
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_response_get_infomation_body-members.html
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_response_get_infomation_body.html
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_response_get_infomation_body.js
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_response_get_infomation_body.png
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_response_get_server_list-members.html
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_response_get_server_list.html
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_response_get_server_list.js
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_response_get_server_list_body-members.html
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_response_get_server_list_body.html
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_response_get_server_list_body.js
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_response_query_alarm-members.html
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_response_query_alarm.html
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_response_query_alarm.js
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_response_query_alarm.png
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_response_query_alarm_body-members.html
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_response_query_alarm_body.html
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_response_query_alarm_body.js
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_response_query_alarm_body.png
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_response_query_alarm_settings-members.html
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_response_query_alarm_settings.html
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_response_query_alarm_settings.js
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_response_query_alarm_settings.png
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_response_query_alarm_settings_body-members.html
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_response_query_alarm_settings_body.html
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_response_query_alarm_settings_body.js
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_response_query_alarm_settings_body.png
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_response_query_user_info-members.html
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_response_query_user_info.html
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_response_query_user_info.js
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_response_query_user_info.png
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_response_query_user_info_body-members.html
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_response_query_user_info_body.html
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_response_query_user_info_body.js
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_response_query_user_info_body.png
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_response_server-members.html
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_response_server.html
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_response_server.js
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_response_server1-members.html
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_response_server1.html
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_response_server1.js
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_response_server_body-members.html
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_response_server_body.html
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_response_server_body.js
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_response_server_body1-members.html
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_response_server_body1.html
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_response_server_body1.js
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_server_list_info-members.html
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_server_list_info.html
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_server_list_info.js
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_server_list_info.png
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_servers_info-members.html
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_servers_info.html
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_servers_info.js
+* doc\html\classcom_1_1_player_1_1web_1_1response_1_1_servers_info.png
+* doc\html\classcom_1_1_player_1_1web_1_1websocket_1_1_client_core-members.html
+* doc\html\classcom_1_1_player_1_1web_1_1websocket_1_1_client_core.html
+* doc\html\classcom_1_1_player_1_1web_1_1websocket_1_1_client_core.js
+* doc\html\classes.html
+* doc\html\closed.png
+* doc\html\deprecated.html
+* doc\html\dir_4b791fcddab0a7e101a6ced3c18811f4.html
+* doc\html\dir_541eb0a6c58a7690acc5b848a4b1b724.html
+* doc\html\dir_5aa9eaec9c9205085a0f59faed8add1b.html
+* doc\html\dir_68267d1309a1af8e8297ef4c3efbcdba.html
+* doc\html\dir_73431e44cb6f54ea02da483c4d2eac9e.html
+* doc\html\dir_b4997cc1453da7cde18fe0a4f365ef23.html
+* doc\html\dir_e4b063a6a2491fdd7e99fcfd539d0e1b.html
+* doc\html\doc.png
+* doc\html\doxygen.css
+* doc\html\doxygen.png
+* doc\html\dynsections.js
+* doc\html\folderclosed.png
+* doc\html\folderopen.png
+* doc\html\functions.html
+* doc\html\functions_b.html
+* doc\html\functions_c.html
+* doc\html\functions_d.html
+* doc\html\functions_dup.js
+* doc\html\functions_e.html
+* doc\html\functions_f.html
+* doc\html\functions_func.html
+* doc\html\functions_func.js
+* doc\html\functions_func_c.html
+* doc\html\functions_func_d.html
+* doc\html\functions_func_e.html
+* doc\html\functions_func_g.html
+* doc\html\functions_func_i.html
+* doc\html\functions_func_k.html
+* doc\html\functions_func_l.html
+* doc\html\functions_func_m.html
+* doc\html\functions_func_o.html
+* doc\html\functions_func_p.html
+* doc\html\functions_func_q.html
+* doc\html\functions_func_r.html
+* doc\html\functions_func_s.html
+* doc\html\functions_func_t.html
+* doc\html\functions_func_u.html
+* doc\html\functions_func_w.html
+* doc\html\functions_func_y.html
+* doc\html\functions_g.html
+* doc\html\functions_h.html
+* doc\html\functions_i.html
+* doc\html\functions_k.html
+* doc\html\functions_l.html
+* doc\html\functions_m.html
+* doc\html\functions_n.html
+* doc\html\functions_o.html
+* doc\html\functions_p.html
+* doc\html\functions_q.html
+* doc\html\functions_r.html
+* doc\html\functions_s.html
+* doc\html\functions_t.html
+* doc\html\functions_u.html
+* doc\html\functions_v.html
+* doc\html\functions_vars.html
+* doc\html\functions_w.html
+* doc\html\functions_y.html
+* doc\html\hierarchy.html
+* doc\html\hierarchy.js
+* doc\html\index.html
+* doc\html\jquery.js
+* doc\html\menu.js
+* doc\html\menudata.js
+* doc\html\nav_f.png
+* doc\html\nav_g.png
+* doc\html\nav_h.png
+* doc\html\navtree.css
+* doc\html\navtree.js
+* doc\html\navtreedata.js
+* doc\html\navtreeindex0.js
+* doc\html\navtreeindex1.js
+* doc\html\navtreeindex2.js
+* doc\html\navtreeindex3.js
+* doc\html\open.png
+* doc\html\pages.html
+* doc\html\resize.js
+* doc\html\search\
+* doc\html\search\all_0.html
+* doc\html\search\all_0.js
+* doc\html\search\all_1.html
+* doc\html\search\all_1.js
+* doc\html\search\all_10.html
+* doc\html\search\all_10.js
+* doc\html\search\all_11.html
+* doc\html\search\all_11.js
+* doc\html\search\all_12.html
+* doc\html\search\all_12.js
+* doc\html\search\all_13.html
+* doc\html\search\all_13.js
+* doc\html\search\all_14.html
+* doc\html\search\all_14.js
+* doc\html\search\all_15.html
+* doc\html\search\all_15.js
+* doc\html\search\all_16.html
+* doc\html\search\all_16.js
+* doc\html\search\all_2.html
+* doc\html\search\all_2.js
+* doc\html\search\all_3.html
+* doc\html\search\all_3.js
+* doc\html\search\all_4.html
+* doc\html\search\all_4.js
+* doc\html\search\all_5.html
+* doc\html\search\all_5.js
+* doc\html\search\all_6.html
+* doc\html\search\all_6.js
+* doc\html\search\all_7.html
+* doc\html\search\all_7.js
+* doc\html\search\all_8.html
+* doc\html\search\all_8.js
+* doc\html\search\all_9.html
+* doc\html\search\all_9.js
+* doc\html\search\all_a.html
+* doc\html\search\all_a.js
+* doc\html\search\all_b.html
+* doc\html\search\all_b.js
+* doc\html\search\all_c.html
+* doc\html\search\all_c.js
+* doc\html\search\all_d.html
+* doc\html\search\all_d.js
+* doc\html\search\all_e.html
+* doc\html\search\all_e.js
+* doc\html\search\all_f.html
+* doc\html\search\all_f.js
+* doc\html\search\classes_0.html
+* doc\html\search\classes_0.js
+* doc\html\search\classes_1.html
+* doc\html\search\classes_1.js
+* doc\html\search\classes_2.html
+* doc\html\search\classes_2.js
+* doc\html\search\classes_3.html
+* doc\html\search\classes_3.js
+* doc\html\search\classes_4.html
+* doc\html\search\classes_4.js
+* doc\html\search\classes_5.html
+* doc\html\search\classes_5.js
+* doc\html\search\classes_6.html
+* doc\html\search\classes_6.js
+* doc\html\search\classes_7.html
+* doc\html\search\classes_7.js
+* doc\html\search\close.png
+* doc\html\search\functions_0.html
+* doc\html\search\functions_0.js
+* doc\html\search\functions_1.html
+* doc\html\search\functions_1.js
+* doc\html\search\functions_10.html
+* doc\html\search\functions_10.js
+* doc\html\search\functions_11.html
+* doc\html\search\functions_11.js
+* doc\html\search\functions_2.html
+* doc\html\search\functions_2.js
+* doc\html\search\functions_3.html
+* doc\html\search\functions_3.js
+* doc\html\search\functions_4.html
+* doc\html\search\functions_4.js
+* doc\html\search\functions_5.html
+* doc\html\search\functions_5.js
+* doc\html\search\functions_6.html
+* doc\html\search\functions_6.js
+* doc\html\search\functions_7.html
+* doc\html\search\functions_7.js
+* doc\html\search\functions_8.html
+* doc\html\search\functions_8.js
+* doc\html\search\functions_9.html
+* doc\html\search\functions_9.js
+* doc\html\search\functions_a.html
+* doc\html\search\functions_a.js
+* doc\html\search\functions_b.html
+* doc\html\search\functions_b.js
+* doc\html\search\functions_c.html
+* doc\html\search\functions_c.js
+* doc\html\search\functions_d.html
+* doc\html\search\functions_d.js
+* doc\html\search\functions_e.html
+* doc\html\search\functions_e.js
+* doc\html\search\functions_f.html
+* doc\html\search\functions_f.js
+* doc\html\search\mag_sel.png
+* doc\html\search\nomatches.html
+* doc\html\search\pages_0.html
+* doc\html\search\pages_0.js
+* doc\html\search\search.css
+* doc\html\search\search.js
+* doc\html\search\search_l.png
+* doc\html\search\search_m.png
+* doc\html\search\search_r.png
+* doc\html\search\searchdata.js
+* doc\html\search\variables_0.html
+* doc\html\search\variables_0.js
+* doc\html\search\variables_1.html
+* doc\html\search\variables_1.js
+* doc\html\search\variables_2.html
+* doc\html\search\variables_2.js
+* doc\html\search\variables_3.html
+* doc\html\search\variables_3.js
+* doc\html\search\variables_4.html
+* doc\html\search\variables_4.js
+* doc\html\search\variables_5.html
+* doc\html\search\variables_5.js
+* doc\html\search\variables_6.html
+* doc\html\search\variables_6.js
+* doc\html\search\variables_7.html
+* doc\html\search\variables_7.js
+* doc\html\search\variables_8.html
+* doc\html\search\variables_8.js
+* doc\html\search\variables_9.html
+* doc\html\search\variables_9.js
+* doc\html\search\variables_a.html
+* doc\html\search\variables_a.js
+* doc\html\search\variables_b.html
+* doc\html\search\variables_b.js
+* doc\html\search\variables_c.html
+* doc\html\search\variables_c.js
+* doc\html\search\variables_d.html
+* doc\html\search\variables_d.js
+* doc\html\search\variables_e.html
+* doc\html\search\variables_e.js
+* doc\html\search\variables_f.html
+* doc\html\search\variables_f.js
+* doc\html\splitbar.png
+* doc\html\sync_off.png
+* doc\html\sync_on.png
+* doc\html\tab_a.png
+* doc\html\tab_b.png
+* doc\html\tab_h.png
+* doc\html\tab_s.png
+* doc\html\tabs.css
+* doc\index.html
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:19.1.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets
+* libs\armeabi\libaacDecode.so => app\src\main\jniLibs\armeabi\libaacDecode.so
+* libs\armeabi\libffmpeg.so => app\src\main\jniLibs\armeabi\libffmpeg.so
+* libs\armeabi\libG711aDec.so => app\src\main\jniLibs\armeabi\libG711aDec.so
+* libs\armeabi\libgetuiext2.so => app\src\main\jniLibs\armeabi\libgetuiext2.so
+* libs\armeabi\libJpgDecode.so => app\src\main\jniLibs\armeabi\libJpgDecode.so
+* libs\armeabi\libJunJiAdpcmDec.so => app\src\main\jniLibs\armeabi\libJunJiAdpcmDec.so
+* libs\armeabi\libLysFastH264Decode.so => app\src\main\jniLibs\armeabi\libLysFastH264Decode.so
+* libs\armeabi\libLysH264Decode.so => app\src\main\jniLibs\armeabi\libLysH264Decode.so
+* libs\armeabi\libMp4StreamParser.so => app\src\main\jniLibs\armeabi\libMp4StreamParser.so
+* libs\armeabi\libMpeg4Decode.so => app\src\main\jniLibs\armeabi\libMpeg4Decode.so
+* libs\armeabi\libNewAllStreamParser.so => app\src\main\jniLibs\armeabi\libNewAllStreamParser.so
+* libs\armeabi\libStreamtomp4.so => app\src\main\jniLibs\armeabi\libStreamtomp4.so
+* libs\armeabi\libtripledes.so => app\src\main\jniLibs\armeabi\libtripledes.so
+* libs\armeabi\libYuvDecode.so => app\src\main\jniLibs\armeabi\libYuvDecode.so
+* libs\armeabi\libzerolink.so => app\src\main\jniLibs\armeabi\libzerolink.so
+* libs\fastjson-1.1.43.android.jar => app\libs\fastjson-1.1.43.android.jar
+* libs\GetuiSDK2.9.0.0.jar => app\libs\GetuiSDK2.9.0.0.jar
+* libs\NewLivePlayer-new.jar => app\libs\NewLivePlayer-new.jar
+* libs\SmartLink.jar => app\libs\SmartLink.jar
+* lint.xml => app\lint.xml
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

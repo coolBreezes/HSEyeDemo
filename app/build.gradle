@@ -1,0 +1,28 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 19
+    buildToolsVersion "26.0.2"
+
+    defaultConfig {
+        applicationId "com.example.umeyesdk"
+        compileOptions.encoding = 'gbk'
+        minSdkVersion 11
+        targetSdkVersion 17
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:19.1.0'
+    compile files('libs/fastjson-1.1.43.android.jar')
+    compile files('libs/GetuiSDK2.9.0.0.jar')
+    compile files('libs/NewLivePlayer-new.jar')
+    compile files('libs/SmartLink.jar')
+}
