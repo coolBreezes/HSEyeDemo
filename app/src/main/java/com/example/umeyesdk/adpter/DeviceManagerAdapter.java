@@ -1,7 +1,5 @@
 package com.example.umeyesdk.adpter;
 
-import java.util.List;
-
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
@@ -14,9 +12,10 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.example.umeyesdk.AcSearchRecord;
 import com.example.umeyesdk.R;
 import com.example.umeyesdk.entity.PlayNode;
+
+import java.util.List;
 
 public class DeviceManagerAdapter extends BaseAdapter implements
 		OnClickListener {
@@ -134,7 +133,7 @@ public class DeviceManagerAdapter extends BaseAdapter implements
 		@Override
 		public void onClick(View v) {
 			// TODO Auto-generated method stub
-			Intent intent = new Intent(con, AcSearchRecord.class);
+			Intent intent = new Intent(con, com.example.umeyeNewSdk.AcSearchRecord.class);
 			intent.putExtra("deviceId", node.connecParams);
 			intent.putExtra("title", node.getName());
 			con.startActivity(intent);

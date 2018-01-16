@@ -2,18 +2,15 @@ package com.example.umeyesdk.utils;
 
 import android.app.Activity;
 import android.app.AlertDialog;
-import android.content.Context;
 import android.content.DialogInterface;
 import android.os.Handler;
 import android.os.Message;
 import android.util.Log;
 
-import com.Player.Source.TDevNodeInfor;
 import com.Player.Source.TFileListNode;
-import com.Player.web.request.P2pConnectInfo;
-import com.Player.web.response.ResponseCommon;
 import com.Player.web.response.ResponseQueryAlarmSettings;
 import com.Player.web.websocket.ClientCore;
+import com.example.umeyesdk.R;
 import com.example.umeyesdk.api.WebSdkApi;
 import com.example.umeyesdk.entity.PlayNode;
 import com.getui.demo.AlarmUtils;
@@ -28,8 +25,7 @@ public class EditDevDialog extends AlertDialog.Builder {
 	ClientCore clientCore;
 	Activity activity;
 	Handler handler;
-	public String[] funcArray = { "修改设备", "删除设备", "查询布防", "设置布防", "撤销布防",
-			"修改通道数" };
+	public String[] funcArray ;
 	PlayNode node;
 
 	public EditDevDialog(Activity arg0, ClientCore clientCore, PlayNode node,
@@ -43,6 +39,14 @@ public class EditDevDialog extends AlertDialog.Builder {
 	}
 
 	public void setItems() {
+
+        funcArray = new String[]{activity.getString(R.string.modify_dev),
+                activity.getString(R.string.del_dev),
+                activity.getString(R.string.search_defence),
+                activity.getString(R.string.set_defence),
+                activity.getString(R.string.un_defence),
+                activity.getString(R.string.modify_ch)};
+
 		setItems(funcArray, new DialogInterface.OnClickListener() {
 
 			@Override

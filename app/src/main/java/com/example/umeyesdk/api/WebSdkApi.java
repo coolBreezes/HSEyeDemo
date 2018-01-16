@@ -12,6 +12,7 @@ import com.Player.web.response.ResponseGetServerList;
 import com.Player.web.response.ResponseQueryAlarm;
 import com.Player.web.response.ServerListInfo;
 import com.Player.web.websocket.ClientCore;
+import com.example.umeyesdk.R;
 import com.example.umeyesdk.utils.Constants;
 import com.example.umeyesdk.utils.Show;
 
@@ -129,12 +130,12 @@ public class WebSdkApi {
 					} else {
 						Log.e(WebSdkApi_Error, "×¢ÏúÊ§°Ü!code="
 								+ responseCommon.h.e);
-						Show.toast(activity, "×¢ÏúÕË»§Ê§°Ü");
+						Show.toast(activity, activity.getString(R.string.logout_fail));
 					}
 
 				} else {
 					Log.e(WebSdkApi_Error, "×¢ÏúÊ§°Ü! error=" + msg.what);
-					Show.toast(activity, "×¢ÏúÕË»§Ê§°Ü");
+					Show.toast(activity, activity.getString(R.string.logout_fail));
 				}
 				super.handleMessage(msg);
 			}

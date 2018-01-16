@@ -59,33 +59,33 @@ public class MainActivity extends Activity implements OnItemClickListener,
 
 			switch (msg.what) {
 			case Constants.MODIFY_DEV_NUM_F:
-				Show.toast(MainActivity.this, "修改设备通道数失败");
+				Show.toast(MainActivity.this, getString(R.string.modify_ch_fail));
 				break;
 			case Constants.MODIFY_DEV_NUM_S:
 				WebSdkApi.getNodeList(MainActivity.this, clientCore, 0, 0, 0,
 						this);
-				Show.toast(MainActivity.this, "修改设备通道数成功");
+				Show.toast(MainActivity.this, getString(R.string.modify_ch_succeed));
 				break;
 			case Constants.DELETE_DEV_F:
-				Show.toast(MainActivity.this, "删除设备失败");
+				Show.toast(MainActivity.this, getString(R.string.del_dev_fail));
 				break;
 			case Constants.DELETE_DEV_S:
 				WebSdkApi.getNodeList(MainActivity.this, clientCore, 0, 0, 0,
 						this);
-				Show.toast(MainActivity.this, "删除设备成功");
+				Show.toast(MainActivity.this, getString(R.string.del_dev_succeed));
 				break;
 
 			case Constants.ADD_DEV_S:
 				WebSdkApi.getNodeList(MainActivity.this, clientCore, 0, 0, 0,
 						this);
-				Show.toast(MainActivity.this, "添加设备成功");
+				Show.toast(MainActivity.this, getString(R.string.add_dev_succeed));
 				break;
 			case Constants.ADD_DEV_F:
-				Show.toast(MainActivity.this, "添加设备失败");
+				Show.toast(MainActivity.this, getString(R.string.add_dev_fail));
 				break;
 
 			case Constants.GET_DEVLIST_F:
-				Show.toast(MainActivity.this, "获取设备失败");
+				Show.toast(MainActivity.this, getString(R.string.get_devs_fail));
 				break;
 			case Constants.GET_DEVLIST_S:
 				nodeList.clear();
@@ -107,7 +107,7 @@ public class MainActivity extends Activity implements OnItemClickListener,
 				adapter.setNodeList(nodeList);
 				adapter.notifyDataSetChanged();
 
-				Show.toast(MainActivity.this, "获取设备成功");
+				Show.toast(MainActivity.this, getString(R.string.get_devs_succeed));
 				break;
 
 			case Constants.DELETE_SUCCEED:
@@ -126,16 +126,16 @@ public class MainActivity extends Activity implements OnItemClickListener,
 				Show.toast(context, R.string.add_succeed);
 				break;
 			case Constants.SET_ALARM_F:
-				Show.toast(context, "布放失败");
+				Show.toast(context, getString(R.string.defence_fail));
 				break;
 			case Constants.SET_ALARM_S:
-				Show.toast(context, "布放成功");
+				Show.toast(context, getString(R.string.defence_succeed));
 				break;
 			case Constants.CANCEL_ALARM_F:
-				Show.toast(context, "撤防失败");
+				Show.toast(context, getString(R.string.un_defence_fail));
 				break;
 			case Constants.CANCEL_ALARM_S:
-				Show.toast(context, "撤防成功");
+				Show.toast(context, getString(R.string.un_defence_succeed));
 
 			default:
 				break;
@@ -188,7 +188,7 @@ public class MainActivity extends Activity implements OnItemClickListener,
 		PlayNode node = nodeList.get(arg2);
 		// TODO Auto-generated method stub
 		if (node.IsDirectory()) {
-			Show.toast(context, "点击了目录");
+			Show.toast(context, "Click on the directory");
 			return;
 		} else if (node.IsDvr()) {
 			showChannleList(node.getNode().dwNodeId);

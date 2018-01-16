@@ -199,6 +199,34 @@
     <string name="reset_pwd_fail">修改密码失败</string>
     <string name="send_reset_pwd_mail_succeed">发送重置密码成功，稍后请查收！</string>
     <string name="send_reset_pwd_mail_fail">发送重置密码失败</string>
+    <string name="before_succeed">距离设置成功还剩</string>
+    <string name="local_pic">本地图片</string>
+    <string name="local_video">本地录像</string>
+    <string name="dev_defence">设备布防</string>
+    <string name="dev_un_defence">设备撤防</string>
+    <string name="remote_playback">远程回放</string>
+    <string name="download_video">下载录像回放，适用mp4，3gp文件</string>
+    <string name="download_pic">下载图片文件</string>
+    <string name="alarm_type_move">移动侦测</string>
+    <string name="logout_fail">注销账户失败</string>
+    <string name="modify_ch_fail">修改设备通道数失败</string>
+    <string name="modify_ch_succeed">修改设备通道数成功</string>
+    <string name="del_dev_fail">删除设备失败</string>
+    <string name="del_dev_succeed">删除设备成功</string>
+    <string name="add_dev_succeed">添加设备成功</string>
+    <string name="add_dev_fail">添加设备失败</string>
+    <string name="get_devs_fail">获取设备失败</string>
+    <string name="get_devs_succeed">获取设备成功</string>
+    <string name="defence_fail">布放失败</string>
+    <string name="defence_succeed">布放成功</string>
+    <string name="un_defence_fail">撤防失败</string>
+    <string name="un_defence_succeed">撤防成功</string>
+    <string name="modify_dev">修改设备</string>
+    <string name="del_dev">删除设备</string>
+    <string name="search_defence">查询布防</string>
+    <string name="set_defence">设置布防</string>
+    <string name="un_defence">撤销布防</string>
+    <string name="modify_ch">修改通道数</string>
 
     <!--veye copy end-->
 

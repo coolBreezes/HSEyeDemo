@@ -210,7 +210,7 @@ public class PlayActivity extends Activity implements OnTouchListener,
 			if (command == MD_DOWN || command == MD_UP || command == MD_LEFT
 					|| command == MD_RIGHT) {
 				int length = 4;
-				System.out.println("发送云台命令：" + command + ",云台步长：" + length);
+				System.out.println("Send PTZ command：" + command + ",PTZ step：" + length);
 				if (pc.GetPlayerState() == SDKError.Statue_PLAYING)
 					pc.SetPtz(command, length);
 			} else {
@@ -474,7 +474,7 @@ public class PlayActivity extends Activity implements OnTouchListener,
 		@Override
 		protected void onProgressUpdate(Integer... values) {
 			// TODO Auto-generated method stub
-			showProgress.setMessage("距离设置成功还剩" + values[0] + 1 + "秒");
+			showProgress.setMessage(getString(R.string.before_succeed) + values[0] + 1 + "s");
 			super.onProgressUpdate(values);
 		}
 
@@ -558,7 +558,7 @@ public class PlayActivity extends Activity implements OnTouchListener,
 			des = con.getString(R.string.passworderro);
 			break;
 		case 10:
-			des = "缓冲中";
+			des = con.getString(R.string.buffering);
 			break;
 		case SDKError.NPC_D_MPI_MON_ERROR_REJECT_ACCESS:
 			des = con.getString(R.string.NPC_D_MPI_MON_ERROR_REJECT_ACCESS);
