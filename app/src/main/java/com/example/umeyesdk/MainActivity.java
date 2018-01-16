@@ -1,8 +1,5 @@
 package com.example.umeyesdk;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.BroadcastReceiver;
@@ -34,6 +31,9 @@ import com.example.umeyesdk.utils.EditDevDialog;
 import com.example.umeyesdk.utils.MoreFuncDialog;
 import com.example.umeyesdk.utils.Show;
 import com.getui.demo.AlarmUtils;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class MainActivity extends Activity implements OnItemClickListener,
 		OnClickListener, OnItemLongClickListener {
@@ -198,7 +198,7 @@ public class MainActivity extends Activity implements OnItemClickListener,
 		} else {
 			// node.isCamera()
 			// 如果是通道节点，就进入播放页面
-			Intent intent = new Intent(context, PlayActivity.class);
+			Intent intent = new Intent(context, com.example.umeyeNewSdk.PlayActivity.class);
 			// Intent intent = new Intent(context, AcVrPlay.class);
 			intent.putExtra("id", node.connecParams);
 			startActivity(intent);

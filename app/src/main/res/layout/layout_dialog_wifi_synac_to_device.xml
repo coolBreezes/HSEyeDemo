@@ -81,7 +81,7 @@
             android:layout_marginRight="5dp"
             android:contentDescription="@string/app_name"
             android:scaleType="fitCenter"
-            android:src="@drawable/wifi_logo_password" />
+            android:src="@drawable/live_sound" />
     </RelativeLayout>
 
     <CheckBox

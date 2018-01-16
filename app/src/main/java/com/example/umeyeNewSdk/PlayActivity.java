@@ -31,6 +31,7 @@ import com.Player.Source.TAlarmFrame;
 import com.example.umeyesdk.AppMain;
 import com.example.umeyesdk.R;
 import com.example.umeyesdk.utils.Constants;
+import com.example.umeyesdk.utils.Show;
 import com.example.umeyesdk.utils.ShowProgress;
 
 public class PlayActivity extends Activity implements OnTouchListener,
@@ -315,6 +316,7 @@ public class PlayActivity extends Activity implements OnTouchListener,
 			// pc.SetVideoPath(TempVIDEO_PATH)
 			// if (pc.GetPlayerState() == SDKError.Statue_PLAYING)
 			pc.SetSnapPicture(true);
+			Show.toast(this,"save in /sdcard/snapShot/");
 			// new SetWIFIRunable("HSKJ-Develope2", "h123h123",
 			// "192.168.10.103","",34567, playClient, handler).start();
 
@@ -331,9 +333,13 @@ public class PlayActivity extends Activity implements OnTouchListener,
 
 			if (pc.GetIsSnapVideo()) {
 				pc.SetSnapVideo(false);
+				Show.toast(this,"video save in /sdcard/videorecord");
 			} else {
-				if (pc.GetPlayerState() == SDKError.Statue_PLAYING)
+				if (pc.GetPlayerState() == SDKError.Statue_PLAYING) {
 					pc.SetSnapVideo(true);
+					Show.toast(this,"start record");
+				}
+
 			}
 
 			// setWifi();
@@ -393,13 +399,15 @@ public class PlayActivity extends Activity implements OnTouchListener,
 			break;
 		case R.id.btnLock:
 			/**
-			 * 开锁 参数是8位数的密码
+			 * 监听 参数是8位数的密码
 			 */
 			// pc.SendOpenLockCmd("88888888");
 			if (!pc.GetIsVoicePause()) {
 				pc.CloseAudio();
+				btnUnLock.setBackgroundResource(R.drawable.live_sound);
 			} else {
 				pc.OpenAudio();
+				btnUnLock.setBackgroundResource(R.drawable.live_sound_pre);
 			}
 			break;
 		default:
@@ -600,7 +608,7 @@ public class PlayActivity extends Activity implements OnTouchListener,
 				PlayActivity.this);
 		String[] items = new String[16];
 		for (int i = 0; i < items.length; i++) {
-			items[i] = "播放" + (i + 1) + "通道";
+			items[i] = "play " + (i + 1) + " channel";
 		}
 		alertBuilder.setItems(items, new DialogInterface.OnClickListener() {
 

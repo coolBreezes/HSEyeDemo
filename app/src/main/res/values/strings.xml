@@ -187,6 +187,18 @@
     <string name="get_dev_fail">获取设备失败</string>
     <string name="get_dev_succeed">获取设备成功</string>
     <string name="login_fail">登陆失败</string>
+    <string name="add_dev">添加设备</string>
+    <string name="update_list">刷新列表</string>
+    <string name="modify_user_pwd">修改用户密码</string>
+    <string name="send_mail_reset_pwd">发送邮件重置密码</string>
+    <string name="search_alarm_info">查询报警记录</string>
+    <string name="delete_all_alarm_info">删除所有报警</string>
+    <string name="search_defense_info">查询布防信息</string>
+    <string name="logout">注销</string>
+    <string name="reset_pwd_succeed">修改密码成功</string>
+    <string name="reset_pwd_fail">修改密码失败</string>
+    <string name="send_reset_pwd_mail_succeed">发送重置密码成功，稍后请查收！</string>
+    <string name="send_reset_pwd_mail_fail">发送重置密码失败</string>
 
     <!--veye copy end-->
 

@@ -7,7 +7,7 @@
         android:id="@+id/llr_show_trans"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/rlTitle" >
+        android:layout_below="@+id/rlTitle" >
 
         <RelativeLayout
             android:layout_width="fill_parent"
@@ -146,7 +146,7 @@
             <ImageButton
                 android:id="@+id/btnLock"
                 style="@style/new_cloud_button_style"
-                android:background="@drawable/wifi_logo_password" />
+                android:background="@drawable/live_sound" />
         </RelativeLayout>
 
         <RelativeLayout

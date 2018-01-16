@@ -17,14 +17,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.Player.Core.PlayerCore;
-import com.Player.Source.AudioDecodeListener;
 import com.Player.Source.SDKError;
 import com.Player.Source.StopRecodeVideoListener;
-import com.example.umeyesdk.utils.MyAudioDecodeThread;
-import com.example.umeyesdk.utils.MyRecoredThread;
-import com.example.umeyesdk.utils.MyVideoDecodeThread;
-import com.mp4.maker.MP4make;
-import com.video.h264.DecodeDisplay;
 
 public class PlayActivity extends Activity implements OnTouchListener,
 		OnClickListener {
@@ -86,8 +80,8 @@ public class PlayActivity extends Activity implements OnTouchListener,
 			@Override
 			public void finish(boolean isSuccess, String path) {
 				// TODO Auto-generated method stub
-				Log.d("setStopRecodeVideoListener", "isSuccess:" + isSuccess
-						+ ",path=" + path);
+//				Log.d("setStopRecodeVideoListener", "isSuccess:" + isSuccess
+//						+ ",path=" + path);
 			}
 		});
 		// …Ë÷√∆Ωª¨≤•∑≈

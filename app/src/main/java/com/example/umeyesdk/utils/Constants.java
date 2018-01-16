@@ -29,7 +29,7 @@ public class Constants {
 	/**
 	 * umid直连模式 默认设备UMID
 	 */
-	public static String UMID = "asksbdkmb72u";// wjks02kywj2u xmksit5p4dfu
+	public static String UMID = "umksc3xcpd9f";// wjks02kywj2u xmksit5p4dfu
 												// umks922mj9e2
 												// //ea9b6c781fb3ba2a
 												// //umksguyuvxrj umksca0vafs9
@@ -41,7 +41,7 @@ public class Constants {
 	/**
 	 * umid直连模式 默认设备密码
 	 */
-	public static String password = "Rabbit1298";// 设备密码
+	public static String password = "1";// 设备密码
 
 	/**
 	 * umid直连模式当前选择设备通道号
