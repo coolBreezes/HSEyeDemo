@@ -8,8 +8,8 @@ import com.Player.Source.TDevNodeInfor;
 import com.Player.web.request.P2pConnectInfo;
 import com.Player.web.response.ResponseCommon;
 import com.Player.web.websocket.ClientCore;
+import com.example.umeyesdk.R;
 import com.example.umeyesdk.entity.PlayNode;
-import com.example.umeyesdk.utils.Constants;
 import com.example.umeyesdk.utils.Show;
 import com.igexin.sdk.PushManager;
 
@@ -40,6 +40,7 @@ public class AlarmUtils {
 	 * 
 	 * @param opCode
 	 *            为1时布防 为2时撤防 为4撤销所有设备布防
+	 *            (Armed at 1 Armed at 2 Disarm at 4 Undo all equipment arming)
 	 */
 	public static void setAlarmPush(final Context context,
 			ClientCore clientCore, PlayNode node, final int opCode) {
@@ -59,16 +60,16 @@ public class AlarmUtils {
 						if (commonSocketText != null
 								&& commonSocketText.h.e == 200) {
 							if (opCode == 1) {
-								Show.toast(context, "布防成功");
+								Show.toast(context, context.getString(R.string.defence_succeed));
 							} else if (opCode == 2) {
-								Show.toast(context, "撤防成功");
+								Show.toast(context, context.getString(R.string.un_defence_succeed));
 							}
 
 						} else {
 							if (opCode == 1) {
-								Show.toast(context, "布防失败");
+								Show.toast(context, context.getString(R.string.defence_fail));
 							} else if (opCode == 2) {
-								Show.toast(context, "撤防失败");
+								Show.toast(context, context.getString(R.string.un_defence_fail));
 							}
 
 						}
@@ -150,16 +151,15 @@ public class AlarmUtils {
 						if (commonSocketText != null
 								&& commonSocketText.h.e == 200) {
 							if (opCode == 1) {
-								Show.toast(activity, "布防成功");
+								Show.toast(activity, activity.getString(R.string.defence_succeed));
 							} else if (opCode == 2) {
-								Show.toast(activity, "撤防成功");
+								Show.toast(activity, activity.getString(R.string.un_defence_succeed));
 							}
-
 						} else {
 							if (opCode == 1) {
-								Show.toast(activity, "布防失败");
+								Show.toast(activity, activity.getString(R.string.defence_fail));
 							} else if (opCode == 2) {
-								Show.toast(activity, "撤防失败");
+								Show.toast(activity, activity.getString(R.string.un_defence_fail));
 							}
 
 						}
@@ -171,7 +171,6 @@ public class AlarmUtils {
 	 * umid直连 设备通道参数
 	 * 
 	 * @param clientCore
-	 * @param node
 	 * @return
 	 */
 	public static P2pConnectInfo createConnectInfo1(ClientCore clientCore,

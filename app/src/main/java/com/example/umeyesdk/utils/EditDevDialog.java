@@ -74,7 +74,7 @@ public class EditDevDialog extends AlertDialog.Builder {
 					 */
 					if (node.IsDvr() || node.IsDirectory()
 							|| tFileListNode.iConnMode != 2) {
-						Show.toast(activity, "只有添加umid的ipc，设备的通道才可以撤防");
+						Show.toast(activity, activity.getString(R.string.un_defence_fail_explain));
 						break;
 					}
 					// 指定查询某个设备的通道布防设置
@@ -91,19 +91,19 @@ public class EditDevDialog extends AlertDialog.Builder {
 
 											Show.toast(
 													activity,
-													"查询报警布防成功！"
+													activity.getString(R.string.query_alarm_info_succeed)
 															+ responseQueryAlarmSettings.b
 																	.toJsonString());
 										} else {
 											Log.e(WebSdkApi.WebSdkApi_Error,
 													"查询报警布防失败!code="
 															+ responseQueryAlarmSettings.h.e);
-											Show.toast(activity, "查询报警布防失败");
+											Show.toast(activity, activity.getString(R.string.query_alarm_info_fail));
 										}
 									} else {
 										Log.e(WebSdkApi.WebSdkApi_Error,
 												"查询报警布防失败! error=" + msg.what);
-										Show.toast(activity, "查询报警布防失败");
+										Show.toast(activity, activity.getString(R.string.query_alarm_info_fail));
 									}
 									super.handleMessage(msg);
 								}

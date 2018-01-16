@@ -176,17 +176,59 @@
     <string name="pir_time">PIR 时间</string>
     <string name="power_mode">省电模式</string>
     <string name="get_server">获取服务器:</string>
+
+    <!--add 2018-1-16 -->
     <string name="get_server_fail">获取服务器失败!</string>
     <string name="login_succeed">登陆成功</string>
     <string name="auth_server">认证服务器:</string>
     <string name="set_push_succeed">设置用户推送成功</string>
     <string name="set_push_fail">设置用户推送失败</string>
-
-    <!--veye copy begin-->
-
     <string name="get_dev_fail">获取设备失败</string>
     <string name="get_dev_succeed">获取设备成功</string>
     <string name="login_fail">登陆失败</string>
+    <string name="add_dev">添加设备</string>
+    <string name="update_list">刷新列表</string>
+    <string name="modify_user_pwd">修改用户密码</string>
+    <string name="send_mail_reset_pwd">发送邮件重置密码</string>
+    <string name="search_alarm_info">查询报警记录</string>
+    <string name="delete_all_alarm_info">删除所有报警</string>
+    <string name="search_defense_info">查询布防信息</string>
+    <string name="logout">注销</string>
+    <string name="reset_pwd_succeed">修改密码成功</string>
+    <string name="reset_pwd_fail">修改密码失败</string>
+    <string name="send_reset_pwd_mail_succeed">发送重置密码成功，稍后请查收！</string>
+    <string name="send_reset_pwd_mail_fail">发送重置密码失败</string>
+    <string name="before_succeed">距离设置成功还剩</string>
+    <string name="local_pic">本地图片</string>
+    <string name="local_video">本地录像</string>
+    <string name="dev_defence">设备布防</string>
+    <string name="dev_un_defence">设备撤防</string>
+    <string name="remote_playback">远程回放</string>
+    <string name="download_video">下载录像回放，适用mp4，3gp文件</string>
+    <string name="download_pic">下载图片文件</string>
+    <string name="alarm_type_move">移动侦测</string>
+    <string name="logout_fail">注销账户失败</string>
+    <string name="modify_ch_fail">修改设备通道数失败</string>
+    <string name="modify_ch_succeed">修改设备通道数成功</string>
+    <string name="del_dev_fail">删除设备失败</string>
+    <string name="del_dev_succeed">删除设备成功</string>
+    <string name="add_dev_succeed">添加设备成功</string>
+    <string name="add_dev_fail">添加设备失败</string>
+    <string name="get_devs_fail">获取设备失败</string>
+    <string name="get_devs_succeed">获取设备成功</string>
+    <string name="defence_fail">布放失败</string>
+    <string name="defence_succeed">布防成功</string>
+    <string name="un_defence_fail">撤防失败</string>
+    <string name="un_defence_succeed">撤防成功</string>
+    <string name="modify_dev">修改设备</string>
+    <string name="del_dev">删除设备</string>
+    <string name="search_defence">查询布防</string>
+    <string name="set_defence">设置布防</string>
+    <string name="un_defence">撤销布防</string>
+    <string name="modify_ch">修改通道数</string>
+    <string name="un_defence_fail_explain">只有添加umid的ipc，设备的通道才可以撤防</string>
+    <string name="query_alarm_info_succeed">查询报警布防成功！</string>
+    <string name="query_alarm_info_fail">查询报警布防失败</string>
 
     <!--veye copy end-->
 
