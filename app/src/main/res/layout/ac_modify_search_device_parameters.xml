@@ -2,14 +2,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/backgroud_color"
-    android:orientation="vertical" >
+    android:orientation="vertical">
 
     <RelativeLayout
         android:layout_width="fill_parent"
         android:layout_height="50dp"
         android:background="@drawable/top_backgroud"
         android:paddingLeft="10dp"
-        android:paddingRight="10dp" >
+        android:paddingRight="10dp">
 
         <TextView
             android:id="@+id/title_name"
@@ -31,36 +31,36 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_margin="15dp"
-        android:orientation="vertical" >
+        android:orientation="vertical">
 
-        <RelativeLayout
+        <LinearLayout
             android:id="@+id/layout_old_pass"
             android:layout_width="fill_parent"
-            android:layout_height="50dp"
+            android:layout_height="wrap_content"
             android:background="@drawable/input_bg_selecter"
-            android:visibility="gone" >
-
-            <EditText
-                android:id="@+id/et1"
-                android:layout_width="fill_parent"
-                android:layout_height="50dp"
-                android:background="@null"
-                android:inputType="text"
-                android:paddingLeft="115dp"
-                android:textColor="@color/front_input" />
+            android:visibility="gone">
 
             <TextView
                 android:id="@+id/textShow1"
-                      android:layout_width="wrap_content"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
                 android:layout_marginLeft="10dp"
-  
+                android:text="@string/old_password"
                 android:textColor="@color/front_input"
-                android:textSize="16sp"
-                android:text="@string/old_password" />
+                android:textSize="16sp" />
 
-        </RelativeLayout>
+            <EditText
+                android:id="@+id/et1"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@null"
+                android:inputType="text"
+                android:paddingLeft="20dp"
+                android:textColor="@color/front_input" />
+
+        </LinearLayout>
 
         <RelativeLayout
             android:id="@+id/dhcp"
@@ -69,7 +69,7 @@
             android:background="@drawable/input_bg_selecter"
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
-            android:visibility="gone" >
+            android:visibility="gone">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -91,93 +91,89 @@
                 android:textOn="" />
         </RelativeLayout>
 
-        <RelativeLayout
+        <LinearLayout
             android:id="@+id/layout_content"
             android:layout_width="fill_parent"
-            android:layout_height="50dp"
-            android:background="@drawable/input_bg_selecter" >
-
-            <EditText
-                android:id="@+id/et"
-                android:layout_width="fill_parent"
-                android:layout_height="50dp"
-                android:background="@null"
-                android:inputType="text"
-                android:paddingLeft="115dp"
-                android:textColor="@color/front_input" />
+            android:layout_height="wrap_content"
+            android:background="@drawable/input_bg_selecter">
 
             <TextView
                 android:id="@+id/textShow"
-              android:layout_width="wrap_content"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
                 android:layout_marginLeft="10dp"
-
+                android:text="@string/user_alias"
                 android:textColor="@color/front_input"
-                android:textSize="16sp"
-                android:text="@string/user_alias" />
-
-
-        </RelativeLayout>
-
-        <RelativeLayout
-            android:id="@+id/layout_mask"
-            android:layout_width="fill_parent"
-            android:layout_height="50dp"
-            android:background="@drawable/input_bg_selecter"
-            android:visibility="gone" >
+                android:textSize="16sp" />
 
             <EditText
-                android:id="@+id/et2"
-                android:layout_width="fill_parent"
-                android:layout_height="50dp"
+                android:id="@+id/et"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:background="@null"
                 android:inputType="text"
                 android:paddingLeft="115dp"
                 android:textColor="@color/front_input" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_mask"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/input_bg_selecter"
+            android:visibility="gone">
 
             <TextView
                 android:id="@+id/textShow2"
-                     android:layout_width="wrap_content"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
                 android:layout_marginLeft="10dp"
-
+                android:text="@string/search_netmask"
                 android:textColor="@color/front_input"
-                android:textSize="16sp"
-                android:text="@string/search_netmask" />
-
-
-        </RelativeLayout>
-
-        <RelativeLayout
-            android:id="@+id/layout_gateway"
-            android:layout_width="fill_parent"
-            android:layout_height="50dp"
-            android:background="@drawable/input_bg_selecter"
-            android:visibility="gone" >
+                android:textSize="16sp" />
 
             <EditText
-                android:id="@+id/et3"
-                android:layout_width="fill_parent"
-                android:layout_height="50dp"
+                android:id="@+id/et2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:background="@null"
                 android:inputType="text"
-                android:paddingLeft="115dp"
                 android:textColor="@color/front_input" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_gateway"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/input_bg_selecter"
+            android:visibility="gone">
 
             <TextView
                 android:id="@+id/textShow3"
-             android:layout_width="wrap_content"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
                 android:layout_marginLeft="10dp"
+                android:text="@string/search_getway"
                 android:textColor="@color/front_input"
-                android:textSize="16sp"
-                android:text="@string/search_getway" />
+                android:textSize="16sp" />
 
+            <EditText
+                android:id="@+id/et3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@null"
+                android:inputType="text"
+                android:textColor="@color/front_input" />
 
-        </RelativeLayout>
+        </LinearLayout>
 
         <Button
             android:id="@+id/btn_save"
